@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home-grid{
+    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}
+
+
+.home-grid2{
+    width: 90vw;
+    margin-top: 4%;
+    border-radius: 3px;
+    border: 1px solid rgb(22, 3, 3);
+    display: grid;
+
+    /* Use  display property as grid*/
+    gap: 5px;
+    grid-template-columns: repeat(
+        auto-fill, minmax(200px, 1fr));
+}
